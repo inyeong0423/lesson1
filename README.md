@@ -1,19 +1,49 @@
 # lesson1
 
-[[_TOC_]]
+## 환경 Setting
 
-## Install VS Code
+### Install VS Code
 
 - OS : Window 10
 
-## Install Extensions
+### Install Extensions
 
 - Python
 - Jupyter
 - Markdown All in one
 - Linter
 
-## Connect with Github
+### Connect with Github
 
 - account : inyeong0423
-ffg
+
+## idea1.주식
+
+### 전역 조건
+
+- 미국장 기준  
+- 장 시작 1시간 이후와 장 종료 전 1시간을 제외한다
+- 가격 확인은 1시간 전 가격을 기준으로 한다.
+- 변동폭이 n% 이하로 급락하고 (n: 정수. 반올림. 지정 하락 변동폭)
+- 환율이 작일 대비
+
+### 작업 1 : 구매
+
+- 매수 금액만큼 주식 구매
+- 금액
+  - 매수 금액은 현재 유동 자산의 5퍼센트
+    - 부족한 금액은 반올림한다.
+  - 한 주당 20,000원 미만의 주식만 구매가능
+- 구매조건
+  - 전역 조건을 포함
+  - 한 시간 전 매수가보다 30퍼센트 큰 경우.
+
+### 작업 2 : 판매
+
+- 판매 금액만큼 주식 구매
+- 금액
+  - 매도 금액은 현재 보유량의 10퍼센트
+    - 부족한 금액은 반올림한다.
+- 판매 조건
+  - 전역 조건을 포함
+  - 한 시간 전 매도가보다 30퍼센트 큰 경우.
