@@ -1,21 +1,45 @@
-# lesson1
+# Lesson1_2022.06.06.Mon
 
-## 환경 Setting
+## Python 개발환경 Setting
 
-### Install VS Code
+### Install Visual Studio Code
 
 - OS : Window 10
+- "https://code.visualstudio.com/"
 
 ### Install Extensions
 
 - Python
+  
+  - 코딩스타일 pep848 가이드 문서
+  
+     "https://ultrakain.gitbooks.io/python/content/chapter1/coding-style-pep8.html"
+
+  - Python 확장자명 : ~.ipynb (IPython notebooks의 약자)
+
 - Jupyter
 - Markdown All in one
+  - Markdown 확장자명 : ~.md
+  - 코드의 변경이력관리에 유용하며 상세한 작성이 추후 코드 관리 시 편리함
+  - Markdown 작성 시 별도의 문법이 존재함. Editor도 사용가능하지만 problems 탭 읽으며 한줄 한줄 해결해나가기 추천함. 많이 작성해보고 Markdown 문법 자체에 어느 정도 익숙해지면 될 듯
+  - Markdown rule 참고
+
+    "https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
+
+  - 우측 상단 preview to the Side 활용
+
 - Linter
 
 ### Connect with Github
 
-- account : inyeong0423
+- Github signup info
+  - account name : inyeong0423
+  - account id : clara9262@naver.com
+  - account pw : love2022!!
+  - "https://github.com/inyeong0423/lesson1"
+- 명령어 사용 (Git Commands)
+  - VS Code>Terminal>bash 에 입력
+  - 
 
 ## idea1.주식
 
