@@ -1,0 +1,20 @@
+    1  cd lesson1
+    2  git status
+    3  git add README.md
+    4  git commit -m "pw 삭제" && git push
+    5  git add README.md
+    6  git commit -m "pw 삭제" && git push
+    7  ls
+    8  vi main.py
+    9  vi main.py 
+   10  which python3
+   11  vi main.py 
+   12  python3.exe main.py 
+   13  vi main.py 
+   14  python3 main.py 
+   15  python3 main.py 
+   16  vi main.py 
+   17  python3 main.py 
+   18  git status
+   19  history
+   20  history > day_1_command_history.txt
