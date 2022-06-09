@@ -41,7 +41,6 @@
 - Github signup info
   - account name : inyeong0423
   - account id : clara9262@naver.com
-  - account pw : love2022!!
   - "https://github.com/inyeong0423/lesson1"
 - 명령어 사용 (Git Commands)
   - VS Code>Terminal>bash 에 입력
