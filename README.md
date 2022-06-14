@@ -21,6 +21,9 @@
     - enter/esc 로 code cell in/out
     - a : insert code cell Above (notebook cell>Insert cell>)
     - b : insert code cell Below (notebook cell>Insert cell>)
+    - ctl + / : 여러줄주석  
+    - shalt위아래화살표:줄복사 alt위아래화살표:줄이동 shctlK:줄삭제
+    - ctlD : 같은 단어 찾아줌
 
 - Jupyter
 - Markdown All in one
@@ -35,6 +38,7 @@
   - 우측 상단 preview to the Side 활용
 
 - Linter
+  - 문법 체크해줌
 
 ### Connect with Github
 
@@ -69,8 +73,8 @@
 - 주가 변동폭 n%은 현재 주가와 34분 전 주가의 차이를 기준으로 한다.
   - n% = (현재주가-과거주가)/현재주가*100
   - 단, n은 정수 (소수점 첫째자리에서 반올림)
-- 당일 적용 환율 r은 전전날 프리장 시가와 전날 애프터장 종가 적용환율의 평균으로 한다.
-  - 매수환율은 r*1.01 , 매도환율은 r로 설정
+- 당일 적용 환율(매매기준율) r은 전전날 프리장 시가와 전날 애프터장 종가 적용환율의 평균으로 한다.
+  - 매수환율은 매매기준율+수수료 , 매도환율은 매매기준율-수수료
 
 - 전체 보유금 중 현금(예수금) 보유 비중은 적어도 10% 이상을 유지해야 함
   - 즉 총매수금액 =< 전체보유금*0.9
