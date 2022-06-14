@@ -1,0 +1,3 @@
+parser = dict(
+    mode = 'test'
+)
